@@ -1,0 +1,9 @@
+# Never push real scan results
+reports/*.txt
+reports/*.xml
+reports/*.nmap
+
+# Never push sensitive configs
+configs/real-*
+*.env
+*.secret
