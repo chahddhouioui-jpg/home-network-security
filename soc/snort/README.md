@@ -1,22 +1,8 @@
-# Snort IDS Setup
+# Snort IDS
+Intrusion Detection System monitoring home network traffic.
 
-## What is Snort?
-Snort is an open source Intrusion Detection System (IDS).
-It monitors network traffic and alerts on suspicious activity.
-
-## Installation
-```bash
-sudo apt install snort -y
-```
-
-## Basic Usage
-```bash
-# Start monitoring
+## Usage
 sudo snort -i eth0
-
-# Monitor specific network
-sudo snort -i eth0 -n 100
-```
 
 ## What it detects
 - Port scans
